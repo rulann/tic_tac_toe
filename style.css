@@ -7,10 +7,6 @@
     color: #DCF2F1;
 }
 
-.main{
-    margin: auto;
-}
-
 body{
     background-color: black;
 }
@@ -20,16 +16,18 @@ table{
 }
 
 td{
-    border: 5px black solid;
+    border: 3px black solid;
     width: 200px;
     height: 20vh;
     background-color: #DCF2F1;
-    text-align: center;
-    vertical-align: middle;
+    text-align: center; 
 }
 
-
-
+button{
+    background-color: #DCF2F1;
+    border: none;
+    font-size: 70px;
+}
 
 .btn1{
     visibility: show;
@@ -48,36 +46,3 @@ td{
 .btn1:active + .btn2{
     visibility: visible;
 }
-
-
-button{
-    background-color: #DCF2F1;
-    border: none;
-    font-size: 70px;
-}
-
-#c1, #c2, #c3, #c4{
-    border-left: none;
-    border-top: none;
-}
-
-#c5, #c6, #c7, #c8{
-    border-left: none;
-    border-top: none;
-}
-
-#c9, #c10, #c11, #c12{
-
-    border-left: none;
-    border-top: none;
-}
-#c13, #c14, #c15, #c16{
-    border-left: none;
-    border-top: none;
-    border-bottom: none;
-}
-
-#c4, #c8, #c12, #c16{
-    border-right: none;
-}
-
